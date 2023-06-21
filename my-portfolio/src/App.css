@@ -2,37 +2,64 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/********* NAVBAR SECTION START ********/
+#nav-menu{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content:space-around;
+  align-items:center;
+  background-color:rgb(101, 217, 255);
 }
 
-.App-link {
-  color: #61dafb;
+#nav-menu > ul {
+   display:grid;
+   grid-template-columns:repeat(5,1fr);
+   gap:50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.item {list-style: none;}
+
+.item-a {
+  text-decoration:none;
+  color:black;
+  font-weight:bold;
+ }
+
+ .nav-link-home{
+  color:rgb(254, 251, 251);
+ }
+
+/*! ***** NAVBAR SECTION END ***********/
+/******** HOME SECTION START **********/
+
+
+
+/*! ***** HOME SECTION END *******/
+/********* ABOUT SECTION START ********/
+
+
+
+/*! ***** ABOUT SECTION END ***********/
+/******** SKILLS SECTION START **********/
+
+
+
+/*! ***** SKILLS SECTION END *******/
+/********* PROJECTS SECTION START ********/
+
+
+
+/*! ***** PROJECTS SECTION END ***********/
+/********  CONTACT START **********/
+
+
+
+/*! ***** CONTACT SECTION END *******/
+
+
+
+
+
+
+
+
+
