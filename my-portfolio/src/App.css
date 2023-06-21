@@ -38,7 +38,7 @@ sans-serif;
   text-decoration:none;
   color:rgb(253, 253, 252);
   font-weight:bold;
-  font-size: 110%;
+  font-size: 100%;
   background-color: rgb(33, 32, 32);
   padding: 10px;
   border-radius: 10px;
@@ -49,7 +49,16 @@ sans-serif;
   padding: 10px;
   border-radius: 10px;
  }
+.logo{
+ font-family: 'Anton', sans-serif;
+ color:rgb(129, 124, 124);
+ background-color: rgb(247, 235, 68);
+ padding: 10px 20px;
+ border-radius: 10px;
+ font-size: 35px;
 
+
+}
 
 /*! ***** NAVBAR SECTION END ***********/
 /******** HOME SECTION START **********/

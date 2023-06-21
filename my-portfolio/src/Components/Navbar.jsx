@@ -3,11 +3,9 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div id="nav-menu" >
-       
       
-       <img src="https://de21-engine.flamingtext.com/netfu/tmp28005/coollogo_com-13702298.png" alt="sahil" srcset="" />
-        
       
+     <h1 className='logo'>SAHIL SHAHU</h1>
         
        <ul >
           <a href="#home" className="item-a nav-link home" >Home</a> 
