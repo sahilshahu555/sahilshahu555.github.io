@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
+import Resume from './Components/Resume';
 function App() {
   return (
     <div className="App" >
@@ -16,7 +17,7 @@ function App() {
          <Skills/>
          <Projects/>
          <Contact/>
-
+          <Resume/>
           
     </div>
   );
