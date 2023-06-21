@@ -13,7 +13,7 @@ const Skills = () => {
       </div>
       <div className="skills-card">
         <img className="skills-card-img" src="" alt="sahil" />
-        <h5 className="skills-card-name"> Skill Name</h5>
+        <h5 className="skills-card-name">Skill Name</h5>
       </div>
       <div className="skills-card">
         <img className="skills-card-img" src="" alt="sahil" />
