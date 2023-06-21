@@ -3,6 +3,7 @@
   
 font-family: 'Roboto', 
 sans-serif;
+
 }
 
 /********* NAVBAR SECTION START ********/
@@ -48,7 +49,7 @@ sans-serif;
 /******** HOME SECTION START **********/
 
 #home{
-  
+  height: 100vh;
 }
 
 
