@@ -3,13 +3,19 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div id="nav-menu" >
-        <div><h1>Sahil Shahu</h1></div>
+       
+      
+       <img src="https://de21-engine.flamingtext.com/netfu/tmp28005/coollogo_com-13702298.png" alt="sahil" srcset="" />
+        
+      
+        
        <ul >
-        <li class="item " ><a href="#home"   class="item-a nav-link-home" >Home</a></li>
-        <li class="item" ><a href="#about"  class="item-a"  >About</a></li>
-        <li class="item" ><a href="#skills" class="item-a"  >Skills</a></li>
-        <li class="item" ><a href="#projects" class="item-a" >Projects</a></li>
-        <li class="item" ><a href="#contact" class="item-a"  >Contact </a></li>
+        <li className="item nav-link.home" ><a href="#home" className="item-a " >Home</a></li>
+        <li className="item" ><a href="#about"  className="item-a"  >About</a></li>
+        <li className="item" ><a href="#skills" className="item-a"  >Skills</a></li>
+        <li className="item" ><a href="#projects" className="item-a" >Projects</a></li>
+        <li className="item" ><a href="#contact" className="item-a"  >Contact </a></li>
+        <li className="item" ><a href="#contact" className="item-a"  >Resume</a></li>
       </ul>
     </div>
   )

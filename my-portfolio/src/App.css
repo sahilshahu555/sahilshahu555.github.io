@@ -1,18 +1,33 @@
 .App {
   text-align: center;
+  
+font-family: 'Roboto', 
+sans-serif;
 }
 
 /********* NAVBAR SECTION START ********/
 #nav-menu{
+  position:sticky;
+  top: 0px; 
   display: flex;
   justify-content:space-around;
   align-items:center;
   background-color:rgb(101, 217, 255);
+  box-shadow: rgba(248, 106, 106, 0.5) 0px 5px 15px;
+  border-radius: 60px;
+ 
+}
+
+#nav-menu>img{
+  width: 12%;
+  border-radius: 50px;
+  margin:10px;
+  box-shadow: rgba(241, 244, 37, 0.846) 0px 0px 15px;
 }
 
 #nav-menu > ul {
    display:grid;
-   grid-template-columns:repeat(5,1fr);
+   grid-template-columns:repeat(6,1fr);
    gap:50px;
 }
 
@@ -20,32 +35,43 @@
 
 .item-a {
   text-decoration:none;
-  color:black;
+  color:rgb(255, 255, 255);
   font-weight:bold;
+  font-size: 110%;
  }
+.nav-link.home{
+  color: rgb(243, 54, 54);
+}
 
- .nav-link-home{
-  color:rgb(254, 251, 251);
- }
 
 /*! ***** NAVBAR SECTION END ***********/
 /******** HOME SECTION START **********/
+
+#home{
+  
+}
 
 
 
 /*! ***** HOME SECTION END *******/
 /********* ABOUT SECTION START ********/
-
+#about{
+  
+}
 
 
 /*! ***** ABOUT SECTION END ***********/
 /******** SKILLS SECTION START **********/
-
+#skills{
+  
+}
 
 
 /*! ***** SKILLS SECTION END *******/
 /********* PROJECTS SECTION START ********/
-
+#projects{
+  
+}
 
 
 /*! ***** PROJECTS SECTION END ***********/
