@@ -13,7 +13,7 @@ const Navbar = () => {
           <a href="#skills" className="item-a nav-link skills"  >Skills</a>
           <a href="#projects" className="item-a nav-link projects" >Projects</a>
           <a href="#contact" className="item-a nav-link contact" >Contact </a>
-          <a href="#contact" className="item-a nav-link resume"  >Resume</a>
+          <a href="#resume" className="item-a nav-link resume"  >Resume</a>
       </ul>
     </div>
   )

@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
     <div id='home'>
-     <h1>Home Section</h1> 
+    <img src="" alt="" srcset="" className="home-img"/>
     </div>
   )
 }
