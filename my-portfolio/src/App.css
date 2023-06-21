@@ -36,20 +36,26 @@ sans-serif;
 
 .item-a {
   text-decoration:none;
-  color:rgb(255, 255, 255);
+  color:rgb(253, 253, 252);
   font-weight:bold;
   font-size: 110%;
+  background-color: rgb(33, 32, 32);
+  padding: 10px;
+  border-radius: 10px;
  }
-.nav-link.home{
-  color: rgb(243, 54, 54);
-}
+ .item-a:hover {
+  color: rgb(249, 229, 7);
+  background-color: rgb(7, 7, 7);
+  padding: 10px;
+  border-radius: 10px;
+ }
 
 
 /*! ***** NAVBAR SECTION END ***********/
 /******** HOME SECTION START **********/
 
 #home{
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 
