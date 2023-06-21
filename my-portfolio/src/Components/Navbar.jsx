@@ -5,7 +5,7 @@ const Navbar = () => {
     <div id="nav-menu" >
       
       
-     <h1 className='logo'>SAHIL SHAHU</h1>
+     <h1 className='logo'> SAHIL SHAHU</h1>
         
        <ul >
           <a href="#home" className="item-a nav-link home" >Home</a> 
