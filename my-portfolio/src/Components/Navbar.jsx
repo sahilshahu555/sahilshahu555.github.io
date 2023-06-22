@@ -3,9 +3,9 @@ import logo from "../Images/download.jpg"
 const Navbar = () => {
   return (
     <div id="nav-menu" >
-      <img src={logo} alt="sahil" srcset="" />
+      {/* <img src={logo} alt="sahil" srcset="" /> */}
       
-     {/* <h1 className='logo'> SAHIL SHAHU</h1> */}
+     <h1 className='logo'>SAHIL</h1>
         
        <ul >
           <a href="#home" className="item-a nav-link home" >Home</a> 
