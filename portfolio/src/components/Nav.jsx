@@ -25,9 +25,13 @@ export const Nav = () => {
     maxW="100%"display="flex"justifyContent="space-between"bg="gray.200"color="black"shadow="base"
     >
       <Box  >
-        <Heading marginTop={0} fontFamily="cursive" size="lg" cursor="pointer" >
-         Sahil <span style={{color:"#e4512d"}}> Shahu
-          </span>
+        <Heading marginTop={0} 
+        //  fontFamily="cursive"
+          size="lg" cursor="pointer" >
+         Sahil
+          {/* <span style={{color:"#e4512d"}}> */}
+           Shahu
+          {/* </span> */}
         </Heading>
       </Box>
       <Spacer />
