@@ -11,14 +11,14 @@ export const Stats = () => {
             <Box className='stat-container'>
                 <Box className='statone' data-aos="fade-up" >
                     <img id="github-stats-card"
-                        src="https://github-readme-stats.vercel.app/api?username=Dibakardebnath&theme=transparent&hide_border=true&include_all_commits=false&count_private=false"
+                        src="https://github-readme-stats.vercel.app/api?username=sahilshahu555&theme=transparent&hide_border=true&include_all_commits=false&count_private=false"
                         alt="GitHub Stats"/>
                 </Box>
                 <Box className='stattwo' data-aos="fade-down" data-aos-duration="1000" > 
-                <img id="github-streak-stats"  src="https://github-readme-streak-stats.herokuapp.com/?user=Dibakardebnath&theme=transparent&hide_border=true" alt="GitHub Streak Stats" />
+                <img id="github-streak-stats"  src="https://github-readme-streak-stats.herokuapp.com/?user=sahilshahu555&theme=transparent&hide_border=true" alt="GitHub Streak Stats" />
                </Box>
                 <Box className='statthree' data-aos="fade-up" data-aos-duration="1000" > <img id="github-top-langs"
-                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dibakardebnath&theme=transparent&hide_border=true&include_all_commits=false&count_private=false&layout=compact"
+                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahilshahu555&theme=transparent&hide_border=true&include_all_commits=false&count_private=false&layout=compact"
                     alt="GitHub Top Languages" />
                   </Box>
             </Box>

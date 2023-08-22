@@ -35,7 +35,7 @@ export const Intro = () => {
 
                     <Text data-aos="zoom-out-up" data-aos-duration="1000" mt={"30px"} >
                         <Button size={["sm", "md", "md", "md"]} id="resume-button-2" onClick={() => handleclick(resume)}
-                            href="https://drive.google.com/file/d/1A8ytv181amJ6yJtqFbJcq-qk_9vn3nj2/view?usp=sharing" as={Link}
+                            href="https://drive.google.com/file/d/1a7tbFkpsUcxQPwzOoCL-TGOUXm30ctFO/view?usp=sharing" as={Link}
                             target="_blank" download={true}
                             color={"white"}
 

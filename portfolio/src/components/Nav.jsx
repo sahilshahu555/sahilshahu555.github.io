@@ -3,7 +3,7 @@ import { Container, Box, Heading, Link, IconButton, useDisclosure, VStack, Space
 import { Link as ScrollLink } from "react-scroll";
 import { DownloadIcon, HamburgerIcon } from "@chakra-ui/icons";
 import './Home.css'
-import resume from './resume/Dibakar Resume.pdf'
+import resume from './resume/Sahil-Shahu-Resume.pdf'
 
 export const Nav = () => {
   const { getDisclosureProps, getButtonProps } = useDisclosure();
@@ -229,7 +229,7 @@ export const Nav = () => {
             color="#f8572f"
             border="1px"
             borderRadius="10px"
-            href="https://drive.google.com/file/d/1A8ytv181amJ6yJtqFbJcq-qk_9vn3nj2/view?usp=sharing"
+            href="https://drive.google.com/file/d/1a7tbFkpsUcxQPwzOoCL-TGOUXm30ctFO/view?usp=sharing"
             download={true}
             onClick={()=>handleClick(resume)}
             id="resume-button-1"
