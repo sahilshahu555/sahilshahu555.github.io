@@ -25,14 +25,7 @@ export const Nav = () => {
     maxW="100%"display="flex"justifyContent="space-between"bg="gray.200"color="black"shadow="base"
     >
       <Box  >
-        <Heading marginTop={0} 
-        //  fontFamily="cursive"
-          size="lg" cursor="pointer" >
-         Sahil
-          {/* <span style={{color:"#e4512d"}}> */}
-           Shahu
-          {/* </span> */}
-        </Heading>
+        <Heading cursor="pointer" size="lg" marginLeft="20px"> Sahil Shahu</Heading>
       </Box>
       <Spacer />
       <Box className="nav" display={["none", "none", "none", "flex", "flex"]} w="50%" justifyContent="space-evenly"
@@ -86,7 +79,7 @@ export const Nav = () => {
         <Button
         id="resume-button-1"
           display={["none", "none", "none", "flex", "flex"]} borderRadius=".8rem" size={["sm", "md"]} margin="auto" as={Link} border="1px solid #e4512d"
-          target="_blank" bg="brand_secondary" color="#f8572f" _hover={{bg: "gray.200", color:"#e4512d" }} href="https://drive.google.com/file/d/1A8ytv181amJ6yJtqFbJcq-qk_9vn3nj2/view?usp=sharing" download={true}
+          target="_blank" bg="brand_secondary" color="#f8572f" _hover={{bg: "gray.200", color:"#e4512d" }} href="https://drive.google.com/file/d/1a7tbFkpsUcxQPwzOoCL-TGOUXm30ctFO/view?usp=sharing" download={true}
           onClick={()=>handleClick(resume)}
          
         >

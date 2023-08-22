@@ -2,7 +2,7 @@ import { Box, Button, Link, Text } from '@chakra-ui/react'
 import React from 'react'
 import { TypedText } from './TypedText';
 import Sahil from './images/Sahil-Shahu.jpeg'
-import resume from './resume/Dibakar Resume.pdf'
+import resume from './resume/Sahil-Shahu-Resume.pdf'
 
 const handleclick = (url) => {
     const filename = url.split("/").pop();
@@ -27,11 +27,11 @@ export const Intro = () => {
 
                     <Box data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
                         <Text mt={"20px"} letterSpacing={15}>
-                            <Link href='https://github.com/Dibakardebnath' className='soco_icon' color={"#f3390a"}> <i class="fa-brands fa-github fa-xl"></i></Link>
-                            <Link href='https://www.linkedin.com/in/dibakar-debnath-39865724a/' className='soco_icon' color={"#f3390a"}><i class="fa-brands fa-linkedin fa-xl"></i></Link>
-                            <Link href='https://twitter.com/dibakar_deb321' className='soco_icon' color={"#f3390a"}><i class="fa-brands fa-twitter fa-xl"></i></Link>
-                            <Link href='https://www.instagram.com/dibakar956/' className='soco_icon' color={"#f3390a"} ><i class="fa-brands fa-instagram fa-xl"></i></Link>
-                        </Text></Box>
+                            <Link href='https://github.com/sahilshahu555' className='soco_icon' color={"#f3390a"}> <i class="fa-brands fa-github fa-xl"></i></Link>
+                            <Link href='https://www.linkedin.com/in/sahil-shahu-7374bb18b/?originalSubdomain=in' className='soco_icon' color={"#f3390a"}><i class="fa-brands fa-linkedin fa-xl"></i></Link>
+                            <Link href='https://www.instagram.com/shahusahil123/' className='soco_icon' color={"#f3390a"} ><i class="fa-brands fa-instagram fa-xl"></i></Link>
+                        </Text>
+                        </Box>
 
                     <Text data-aos="zoom-out-up" data-aos-duration="1000" mt={"30px"} >
                         <Button size={["sm", "md", "md", "md"]} id="resume-button-2" onClick={() => handleclick(resume)}
@@ -46,7 +46,7 @@ export const Intro = () => {
                 </Box>
             </Box>
             <Box className='intro_right' data-aos="fade-down" data-aos-duration="1000">
-                <img className='home-img' src={Sahil} alt="" />
+                <img className='home-img' src={Sahil} alt="" style={{border:"2px solid #f3390a"}}/>
             </Box>
 
         </Box>

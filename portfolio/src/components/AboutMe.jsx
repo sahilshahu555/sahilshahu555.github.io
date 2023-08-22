@@ -25,13 +25,13 @@ export const AboutMe = () => {
        
           <Box>
 
-            <Text mt={"10px"} className='more_detail_text'> <span style={{ color: "#03c8d7", fontWeight: "700" }}> <i class="fa-solid fa-graduation-cap fa-xl"></i></span>  : Bachelor's Degree in ECE from Techno College of Engineering Agartala(Tripura)</Text>
+            <Text mt={"10px"} className='more_detail_text'> <span style={{ color: "#03c8d7", fontWeight: "700" }}> <i class="fa-solid fa-graduation-cap fa-xl"></i></span>Education  : Bachelor's Degree in Mechanical Engineering from Priyadarshani College of Engineering, Nagpur</Text>
             <Divider />
-            <Text   mt={"10px"} className='more_detail_text'><span style={{ color: "#03c8d7", fontWeight: "700" }}><i class="fa-solid fa-phone fa-lg"></i> </span> : 8787455034</Text>
+            <Text   mt={"10px"} className='more_detail_text'><span style={{ color: "#03c8d7", fontWeight: "700" }}><i class="fa-solid fa-phone fa-lg"></i> </span>Mobile No. : 9359216799</Text>
             <Divider />
-            <Text  mt={"10px"} className='more_detail_text'><span style={{ color: "#03c8d7", fontWeight: "700" }}><i class="fa-solid fa-envelope fa-lg"></i></span>  : ddibakar190@gmail.com</Text>
+            <Text  mt={"10px"} className='more_detail_text'><span style={{ color: "#03c8d7", fontWeight: "700" }}><i class="fa-solid fa-envelope fa-lg"></i></span>Email ID  : ddibakar190@gmail.com</Text>
             <Divider />
-            <Text mt={"10px"} className='more_detail_text'> <span style={{ color: "#03c8d7", fontWeight: "700" }}><i class="fa-solid fa-location-dot fa-xl"></i></span>  Agartala,Tripura</Text>
+            <Text mt={"10px"} className='more_detail_text'> <span style={{ color: "#03c8d7", fontWeight: "700" }}><i class="fa-solid fa-location-dot fa-xl"></i></span>City  : Nagpur, Maharashtra</Text>
             <Divider />
           </Box>
         </Box>}

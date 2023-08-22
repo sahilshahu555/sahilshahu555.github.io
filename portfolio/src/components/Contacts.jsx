@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const Contacts = () => {
-  const phoneNumber = '+91-8787455034';
-  const email = 'ddibakar190@gmail.com';
+  const phoneNumber = '+91-9359216799';
+  const email = 'sahilshahu555@gmail.com';
 
   return (
     <div id="contact" style={styles.container}>
@@ -19,13 +19,13 @@ export const Contacts = () => {
      data-aos-duration="1000">Social Media</p>
         <div style={styles.socialMediaLinks}>
         <a style={styles.socialMediaLink}  data-aos="fade-up"
-     data-aos-duration="1000" id="contact-linkedin" href="https://www.linkedin.com/in/dibakar-debnath-39865724a/"><i class="fa-brands fa-linkedin  fa-2xl"></i></a>
-          <a style={styles.socialMediaLink}  data-aos="fade-up"
-     data-aos-duration="1000" id="contact-github" href="https://github.com/Dibakardebnath"><i class="fa-brands fa-github fa-2xl"></i></a>
+     data-aos-duration="1000" id="contact-linkedin" target='_blank' href="https://www.linkedin.com/in/sahil-shahu-7374bb18b/?originalSubdomain=in"><i class="fa-brands fa-linkedin  fa-2xl"></i></a>
+          <a style={styles.socialMediaLink} target='_blank' data-aos="fade-up"
+     data-aos-duration="1000" id="contact-github" href="https://github.com/sahilshahu555"><i class="fa-brands fa-github fa-2xl"></i></a>
         </div>
       </div>
       <div> <p style={{fontWeight:"700"}}  
-    >Designed <span style={{color:"orangered"}}>  &</span> develop by <span style={{color:"orangered"}}> Dibakar Debnath <span style={{color:"green"}}> ©</span>  </span> 2023</p> </div>
+    >Designed <span style={{color:"orangered"}}>  &</span> develop by <span style={{color:"orangered"}}> Sahil Shahu <span style={{color:"green"}}> ©</span>  </span> 2023</p> </div>
     </div>
   );
 };
@@ -41,7 +41,7 @@ const styles = {
    
   },
   contactTitle: {
-    border: '4px solid orangered',
+    border: '3px solid orangered',
     borderRadius: '10px',
     fontSize: '20px',
     fontWeight: 'bold',
@@ -64,7 +64,7 @@ const styles = {
   },
   
   socialMedia: {
-  border:"4px solid orangered",
+  border:"3px solid orangered",
  
     display: 'flex',
    borderRadius:"20px",
