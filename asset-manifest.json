@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.29f7f988.css",
-    "main.js": "/static/js/main.f544fc28.js",
+    "main.js": "/static/js/main.8d22aaf7.js",
     "static/media/Myntra.png": "/static/media/Myntra.0f34c764956f4297ff84.png",
     "static/media/Alcazar.png": "/static/media/Alcazar.cb0978ce0b49e4121784.png",
     "static/media/Sahil-Shahu-Resume.pdf": "/static/media/Sahil-Shahu-Resume.47d815d281390f106c04.pdf",
@@ -9,10 +9,10 @@
     "static/media/Sahil-Shahu.jpeg": "/static/media/Sahil-Shahu.6151ba98a1972979f846.jpeg",
     "index.html": "/index.html",
     "main.29f7f988.css.map": "/static/css/main.29f7f988.css.map",
-    "main.f544fc28.js.map": "/static/js/main.f544fc28.js.map"
+    "main.8d22aaf7.js.map": "/static/js/main.8d22aaf7.js.map"
   },
   "entrypoints": [
     "static/css/main.29f7f988.css",
-    "static/js/main.f544fc28.js"
+    "static/js/main.8d22aaf7.js"
   ]
 }
