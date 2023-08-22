@@ -26,7 +26,7 @@ export const Nav = () => {
     >
       <Box  >
         <Heading marginTop={0} fontFamily="cursive" size="lg" cursor="pointer" >
-         Dibakar <span style={{color:"#e4512d"}}> Debnath
+         Sahil <span style={{color:"#e4512d"}}> Shahu
           </span>
         </Heading>
       </Box>

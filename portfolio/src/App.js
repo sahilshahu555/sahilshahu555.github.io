@@ -10,9 +10,7 @@ function App() {
   return (
     <div id='app-container'>
         <Nav/>
-      <Home/>
-    
-      
+        <Home/>
     </div>
   );
 }
