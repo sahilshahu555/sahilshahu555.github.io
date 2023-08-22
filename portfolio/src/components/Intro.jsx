@@ -1,7 +1,7 @@
 import { Box, Button, Link, Text } from '@chakra-ui/react'
 import React from 'react'
 import { TypedText } from './TypedText';
-import Dibakar from './images/Dibakar.png'
+import Sahil from './images/Sahil-Shahu.jpeg'
 import resume from './resume/Dibakar Resume.pdf'
 
 const handleclick = (url) => {
@@ -46,7 +46,7 @@ export const Intro = () => {
                 </Box>
             </Box>
             <Box className='intro_right' data-aos="fade-down" data-aos-duration="1000">
-                <img className='home-img' src={Dibakar} alt="" />
+                <img className='home-img' src={Sahil} alt="" />
             </Box>
 
         </Box>
