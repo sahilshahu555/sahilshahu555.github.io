@@ -45,14 +45,14 @@ export const Nav = () => {
             >
              About
             </Link>
-            <Link    className="nav-link skills" as={ScrollLink} to={"skills"}spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
+            <Link  className="nav-link skills" as={ScrollLink} to={"skills"}spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
               cursor="pointer"
               w="100px"
               _hover={{ bg: "gray.200", color:"#e4512d", borderRadius: "10px" }}
             >
              Skills
             </Link>
-            <Link    className="nav-link projects" as={ScrollLink} to={"projects"}spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
+            <Link  className="nav-link projects" as={ScrollLink} to={"projects"}spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
               cursor="pointer"
               w="100px"
               _hover={{ bg: "gray.200", color:"#e4512d", borderRadius: "10px" }}
@@ -100,7 +100,7 @@ export const Nav = () => {
         >
           <HamburgerIcon />
         </IconButton>
-        <VStack
+        {/* <VStack
           marginTop="40px"
           {...disclosureProps}
           bg="brand_secondary"
@@ -234,7 +234,7 @@ export const Nav = () => {
             <DownloadIcon marginRight="5px" />
             Resume
           </Button>
-        </VStack>
+        </VStack> */}
       </Box>
     </Container>
   )
