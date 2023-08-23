@@ -1,10 +1,9 @@
 import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
-import Alcazar from './images/Alcazar.png'
 import Myntra from './images/Myntra.png'
-import Bialetti from './images/Bialetti.png'
-
-
+import Honey from './images/Onilne-honey-store.png'
+import Portfolio from './images/Sahil-Portfolio.png'
+import Glossier from './images/Glossier.png'
 import { ProjectCard } from './ProjectCard'
 
 export const Project = () => {
@@ -18,10 +17,10 @@ export const Project = () => {
         textAlign={"center"}  w={'max-content'} margin={"40px auto"} padding={"0px 40px"}>Projects</Text>
 
       <Box className='project_main'>
-        <ProjectCard  tech="  CSS | HTML | JavaScript | JSON | Netlify" github="https://github.com/AbhishekRS07/Myntra" link="https://team-myntra.netlify.app/" avatar={Alcazar} name="Myntra" desc=" Myntra is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products." />
-        <ProjectCard  tech="  CSS | HTML | JavaScript | JSON | Netlify" github="https://github.com/AbhishekRS07/Myntra" link="https://team-myntra.netlify.app/" avatar={Alcazar} name="Myntra" desc=" Myntra is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products." />
-        <ProjectCard  tech="  CSS | HTML | JavaScript | JSON | Netlify" github="https://github.com/AbhishekRS07/Myntra" link="https://team-myntra.netlify.app/" avatar={Alcazar} name="Myntra" desc=" Myntra is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products." />
-        <ProjectCard  tech="  CSS | HTML | JavaScript | JSON | Netlify" github="https://github.com/AbhishekRS07/Myntra" link="https://team-myntra.netlify.app/" avatar={Alcazar} name="Myntra" desc=" Myntra is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products." />
+        <ProjectCard  tech="  REACT | CHAKRA | REDUX | JSON | Netlify" github="https://github.com/sahilshahu555/honeySahil" link="https://honeystore1.netlify.app/" avatar={Honey} name="Honey" desc="We are a company specializing only in Honey. By collecting honey from the very ground level, and  we have made available the best quality honey and other products from the Bee Hive. " />
+        <ProjectCard  tech="  HTML | CSS | JavaScript | JSON | Netlify" github="https://github.com/sahilshahu555/Glossier" link="https://glossier-ten.vercel.app/" avatar={Glossier} name="Glossier" desc="Online Female Beauty Product Shop clone built with the use of HTML CSS and Javascript. A beauty website and community devoted to sharing real information" />
+        <ProjectCard  tech="  HTML | CSS | JavaScript | JSON | Netlify" github="https://github.com/AbhishekRS07/Myntra" link="https://myntra-khaki.vercel.app/" avatar={Myntra} name="Myntra" desc=" Myntra is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products." />
+        <ProjectCard  tech="  REACT | CHAKRA | REDUX | JSON | GH-PAGES" github="https://github.com/sahilshahu555/sahilshahu555.github.io" link="https://sahilshahu555.github.io/" avatar={Portfolio} name="Portfolio" desc=" Passionate MERN Stack Developer. Worked on various modern technologies such as React, MongoDB, Express.js, and Node.js.Seeking new opportunities to contribute and enhance skills." />
       </Box>
     </Box>
   )
