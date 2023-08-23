@@ -100,7 +100,7 @@ export const Nav = () => {
         >
           <HamburgerIcon />
         </IconButton>
-        {/* <VStack
+        <VStack
           marginTop="40px"
           {...disclosureProps}
           bg="brand_secondary"
@@ -234,7 +234,7 @@ export const Nav = () => {
             <DownloadIcon marginRight="5px" />
             Resume
           </Button>
-        </VStack> */}
+        </VStack>
       </Box>
     </Container>
   )
