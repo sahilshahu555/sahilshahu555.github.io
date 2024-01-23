@@ -75,7 +75,7 @@ export const Nav = () => {
             </Link>
        
       </Box>
-      <Link  className="nav-link resume">
+        <Link  className="nav-link resume">
         <Button
         id="resume-button-1"
           display={["none", "none", "none", "flex", "flex"]} borderRadius=".8rem" size={["sm", "md"]} margin="auto" as={Link} border="1px solid #e4512d"
@@ -87,7 +87,7 @@ export const Nav = () => {
           Resume
         </Button>
        
-      </Link>
+        </Link>
       {/* <a href="./resume\Abid_resume (3).pdf" download> resume</a> */}
       <Box>
         <IconButton
@@ -103,7 +103,7 @@ export const Nav = () => {
         <VStack
           marginTop="40px"
           {...disclosureProps}
-          bg="brand_secondary"
+          bg="gray.200"
           padding="5px"
           borderRadius="5px"
           display={["flex", "flex", "flex", "none", "none"]}
@@ -189,7 +189,7 @@ export const Nav = () => {
                 width="100%"
                 color="brand"
                 borderRadius="5px"
-                to={"statistics"}
+                to={"cer"}
                 spy={true}
                 smooth={true}
                 offset={-80}
@@ -222,11 +222,11 @@ export const Nav = () => {
             margin="auto"
             as={Link}
             target="_blank"
-            variant="outline"
+           
             color="#f8572f"
             border="1px"
             borderRadius="10px"
-            href="https://drive.google.com/file/d/1c5tn3oRihetBMKptsGGx9Gk0hqRoZfUx/view?usp=sharing"
+            href="https://drive.google.com/file/d/1xUPJpO6CJEb36Y4L8Y3fPKgG_fKHxaSM/view?usp=sharing"
             download={true}
             onClick={()=>handleClick(resume)}
             id="resume-button-1"
