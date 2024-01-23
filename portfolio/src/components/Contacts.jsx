@@ -1,13 +1,13 @@
 import React from 'react';
+import { Box, Button, Divider, Text } from '@chakra-ui/react'
 
 export const Contacts = () => {
-  const phoneNumber = '+91-9359216799';
-  const email = 'sahilshahu555@gmail.com';
+  const phoneNumber = '+91-9860927554';
+  const email = 'reenabarsagade@gmail.com';
 
   return (
     <div id="contact" style={styles.container}>
-      <h2 style={styles.contactTitle} data-aos="fade-up"
-     data-aos-duration="1000">Contact Me</h2>
+      <Text  className='tool' data-aos-duration="1000" textAlign={"center"}  m={"auto"} color={"black"} borderRadius={"10px"} border={"4px solid orangered"} w={"max-content"}  fontWeight={"700"}>Contacts</Text>
       <div style={styles.contactDetails}>
         <p style={styles.contactInfo} id="contact-phone"   data-aos="fade-up"
      data-aos-duration="1000"><i class="fa-solid fa-phone-volume fa-2xl"></i> <span style={{color:"black"}}> : {phoneNumber}</span> </p>
@@ -19,13 +19,13 @@ export const Contacts = () => {
      data-aos-duration="1000">Social Media</p>
         <div style={styles.socialMediaLinks}>
         <a style={styles.socialMediaLink}  data-aos="fade-up"
-     data-aos-duration="1000" id="contact-linkedin" target='_blank' href="https://www.linkedin.com/in/sahil-shahu-7374bb18b/?originalSubdomain=in"><i class="fa-brands fa-linkedin  fa-2xl"></i></a>
-          <a style={styles.socialMediaLink} target='_blank' data-aos="fade-up"
-     data-aos-duration="1000" id="contact-github" href="https://github.com/sahilshahu555"><i class="fa-brands fa-github fa-2xl"></i></a>
+     data-aos-duration="1000" id="contact-linkedin" target='_blank' href="https://www.linkedin.com/in/reena-barsagade-44287519"><i class="fa-brands fa-linkedin  fa-2xl"></i></a>
+          
         </div>
       </div>
-      <div> <p style={{fontWeight:"700"}}  
-    >Designed <span style={{color:"orangered"}}>  &</span> develop by <span style={{color:"orangered"}}> Sahil Shahu <span style={{color:"green"}}> ©</span>  </span> 2023</p> </div>
+      <div className='footer'> 
+        <p style={{fontWeight:"700"}}  >Designed <span style={{color:"orangered"}}>  &</span> develop by <span style={{color:"orangered"}}> Reena Barsagade
+        <span style={{color:"green"}}> ©</span>  </span> 2024</p> </div>
     </div>
   );
 };

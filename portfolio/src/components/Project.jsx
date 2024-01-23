@@ -17,10 +17,39 @@ export const Project = () => {
         textAlign={"center"}  w={'max-content'} margin={"40px auto"} padding={"0px 40px"}>Projects</Text>
 
       <Box className='project_main'>
-        <ProjectCard  tech="  REACT | CHAKRA | REDUX | JSON | Netlify" github="https://github.com/sahilshahu555/honeySahil" link="https://honeystore1.netlify.app/" avatar={Honey} name="Honey" desc="We are a company specializing only in Honey. By collecting honey from the very ground level, and  we have made available the best quality honey and other products from the Bee Hive. " />
-        <ProjectCard  tech="  HTML | CSS | JavaScript | JSON | Netlify" github="https://github.com/sahilshahu555/Glossier" link="https://glossier-ten.vercel.app/" avatar={Glossier} name="Glossier" desc="Online Female Beauty Product Shop clone built with the use of HTML CSS and Javascript. A beauty website and community devoted to sharing real information" />
-        <ProjectCard  tech="  HTML | CSS | JavaScript | JSON | Netlify" github="https://github.com/AbhishekRS07/Myntra" link="https://myntra111.netlify.app/" avatar={Myntra} name="Myntra" desc=" Myntra is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products." />
-        <ProjectCard  tech="  REACT | CHAKRA | REDUX | JSON | GH-PAGES" github="https://github.com/sahilshahu555/sahilshahu555.github.io" link="https://sahilshahu555.github.io/" avatar={Portfolio} name="Portfolio" desc=" Passionate MERN Stack Developer. Worked on various modern technologies such as React, MongoDB, Express.js, and Node.js.Seeking new opportunities to contribute and enhance skills." />
+        <ProjectCard  tech="  PYTHON | JUPYTER LABS "   avatar="https://www.slideteam.net/media/catalog/product/cache/1280x720/e/m/employee_turnover_chart_with_termination_reasons_and_service_length_slide01.jpg" 
+        
+        name="EMPLOYEE TURNOVER ANALYSIS" desc="As the ML Developer assigned to the HR Department, we have been asked to create ML Programs to 
+Perform data quality check by checking for missing values if any. 
+Understand what factors contributed most to employee turnover by EDA. 
+Perform clustering of Employees who left based on their satisfaction and evaluation. 
+Handle the left Class Imbalance using SMOTE technique. 
+Perform k-fold cross-validation model training and evaluate performance.  
+Identify the best model and justify the evaluation metrics used.  
+Suggest various retention strategies for targeted employees." />
+
+        <ProjectCard  tech="  PYTHON | JUPYTER LABS "  avatar="https://i.ytimg.com/vi/nwnTHCvsX14/maxresdefault.jpg" name="SALES ANALYSIS" desc="
+Currently experiencing a surge in business, AAL is actively pursuing expansion opportunities. To facilitate informed investment decisions, the CEO has assigned the responsibility to the Head of Sales and Marketing (S&M) at AAL. The specific tasks include: 
+Identify the states that are generating the highest revenues. 
+Develop sales programs for states with lower revenues. The Head of Sales and Marketing has requested your assistance with this task. 
+Analyze the sales data of the company for the fourth quarter in Australia, examining it on a state-by-state basis. Provide insights to assist the company in making data-driven decisions for the upcoming year." />
+
+
+        <ProjectCard  tech="  PYTHON | JUPYTER LABS | TABLEAU"   avatar="https://www.uneecops.com/wp-content/uploads/2022/08/Sales-Oppertunity-1024x574.png" name="COMPARISON OF SALES" desc="
+The director of a leading organization wants to compare the sales between two regions. He has asked each region operators to record the sales data to compare by region. The upper management wants to visualize the sales data using a dashboard to understand the performance between them and suggest the necessary improvements.
+ 
+Objective: Help the organization by creating a dashboard to visualize the sales comparison between two selected regions.
+Datasets: Sample Superstore" />
+
+
+        <ProjectCard  tech="  PYTHON | JUPYTER LABS "   avatar="https://databrio.com/storage/uploads/blog-images/FYTmQKy87XJzxo32KuuOLDIzVy3l9FI8qutlQid2.png" name="RETAIL ANALYSIS" desc="Performed Analysis Tasks on Walmart data
+Basic Statistics tasks-
+1.Which store has maximum sales
+2.Which store has maximum standard deviation i.e., the sales vary a lot. Also, find out the coefficient of mean to standard deviation
+3.Which store/s has good quarterly growth rate in Q3’2012
+4.Some holidays have a negative impact on sales. Find out holidays which have higher sales than the mean sales in non-holiday season for all stores together
+5.Provide a monthly and semester view of sales in units and give insights
+Build Statistical Model- For Store 1 – Build prediction models to forecast demand" />
       </Box>
     </Box>
   )

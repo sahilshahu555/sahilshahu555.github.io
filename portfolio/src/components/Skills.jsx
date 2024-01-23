@@ -7,7 +7,7 @@ export const Skills = () => {
   return (
     <Box  id="skills" >
       <Text data-aos="flip-up" data-aos-duration="1000"
-        textAlign={"center"} margin={"auto"} w={"max-content"}
+        textAlign={"center"} margin={"auto"} w={"max-content"} padding={"10px"}
         borderRadius={"10px"}
 
        border={"4px solid"}
@@ -23,66 +23,89 @@ export const Skills = () => {
           _hover={{ bg: "gray.900", color: "orangered", borderRadius: "10px" }}
           color={"white"}
        
-          bg={"orangered"}>{skillshow ? "See Front" : " See Back"}
-          End
+          bg={"orangered"}>{skillshow ? " See Data Scientist" : " See Training Specialist "}
+          
         </Button>
       </Text>
-
+    {/* skills */}
       <Box id='skill-container-inner'  className="skills-card"  >
 
         <Box id='skills_left'  className="skills-card-name"  >
           {skillshow ? (<Box className='left_dup' data-aos="fade-left" data-aos-duration="1000">
-            <img className="skills-card-img" src="https://phpdots.com/wp-content/uploads/2021/12/api-backend-banner.svg" alt="" />
-          </Box>) : (<Box id='left_real'  >
+            <img className="skills-card-img" src="https://resumeworded.com/skills-and-keywords/img/training-specialist.jpeg" alt="" />
+          </Box>) : (
+          
+          <Box id='left_real'  >
 
-            <Text className='skillNameTitle' data-aos-duration="1000" margin={"auto"} mb={"20px"} border={"1px solid"}>Front End </Text>
+            <Text className='skillNameTitle' data-aos-duration="1000" margin={"auto"} mb={"20px"} border={"1px solid"}>Data Scientist </Text>
             <Box id='frontend_skills' data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" >
-              <Box >   <img   className="skills-card-img" id='fontSkill_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="html5" /> <Text   className="skills-card-name"    id='skillName'  >HTML</Text></Box>
-              <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://img.freepik.com/free-icon/css_318-698167.jpg" alt="css3" />  <Text   className="skills-card-name"    id='skillName' >CSS</Text></Box>
-              <Box >   <img  className="skills-card-img" id='fontSkill_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="javascript" />  <Text   className="skills-card-name"    id='skillName' >javascript</Text></Box>
-              <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNQ6ZmsiCzSC16bStr1KjZNcIBW5hAMa1ek6xoNeSSw5wQouq_N7dQCxlxI02TIeZk1e0&usqp=CAU" alt="react" /> <Text   className="skills-card-name"    id='skillName' >React</Text></Box>
-              <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://cdn.worldvectorlogo.com/logos/redux.svg" alt="redux" />  <Text      id='skillName'>Redux</Text></Box>
-              <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://avatars.githubusercontent.com/u/54212428?s=280&v=4" alt="chakra ui" />  <Text    className="skills-card-name"   id='skillName'>Chakra UI</Text></Box>
+              <Box >   <img   className="skills-card-img" id='fontSkill_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/270px-Python.svg.png" alt="html5" /> <Text   className="skills-card-name"    id='skillName'  >Python</Text></Box>
+              <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://www.tutorialsteacher.com/Content/images/home/sql.png" alt="css3" />  <Text   className="skills-card-name"    id='skillName' >SQL</Text></Box>
+              <Box >   <img  className="skills-card-img" id='fontSkill_img' src="https://miro.medium.com/v2/resize:fit:1001/1*vPezx00A1u0WAfS8e8wBXQ.png" alt="javascript" />  <Text   className="skills-card-name"    id='skillName' >Numpy</Text></Box>
+              <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://www.inventateq.com/top-stories/featured_image/tableau2.png" alt="react" /> <Text   className="skills-card-name"    id='skillName' >Tableau</Text></Box>
+              <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://cdn.worldvectorlogo.com/logos/redux.svg"  alt="redux" />  <Text     id='skillName'>Machine Learning</Text></Box>
+              <Box >  <img  className="skills-card-img" id='fontSkill_img' src="https://dce0qyjkutl4h.cloudfront.net/wp-content/webp-express/webp-images/uploads/2017/11/Power-BI-Desktop-Feature-image.jpg.webp" alt="chakra ui" />  <Text    className="skills-card-name"   id='skillName'>Power BI</Text></Box>
             </Box>
-          </Box>)}
-
-
+          </Box>
+          )}
 
         </Box>
 
         <Box id='skills_right'  className="skills-card-name" >
-          {skillshow ? (<Box id='right_real'  >
+          {skillshow ? (
+          <Box id='right_real'  >
 
-            <Text className='skillNameTitle' mb={"20px"}  border={"1px solid"}>Back End </Text>
-            <Box className='back_end_skills' data-aos="zoom-in-left" data-aos-easing="ease-out-cubic" >
-              <Box> <img className='skills-card-img' id='backEnd_img' src="https://openautomationsoftware.com/wp-content/uploads/2016/07/JSON-icon-2.jpg" alt="JSON" /> <Text    className="skills-card-name"   id='skillName'> JSON </Text></Box>
-              <Box > <img className='skills-card-img' id='backEnd_img' src="https://cdn-icons-png.flaticon.com/512/1183/1183669.png" alt="java" /> <Text    className="skills-card-name"   id='skillName'> Java </Text></Box>
-              <Box>  <img className='skills-card-img' id='backEnd_img' src="https://www.techwell.com/sites/default/files/stories/images/cropped_teasers/Beth%20Romanik/2019/node-js-tutorial.png" alt="nodejs" />  <Text    className="skills-card-name"   id='skillName'> Node.js </Text></Box>
-              <Box><img className='skills-card-img' id='backEnd_img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR81s2BetKvsvix5szaKt2gQyX12huNnD7TdA&usqp=CAU" alt="express" /> <Text    className="skills-card-name"   id='skillName'> Express.js </Text></Box>
-              <Box>  <img className='skills-card-img' id='backEnd_img' src="https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png" alt="mongodb" /> <Text    className="skills-card-name"   id='skillName'> MongoDB </Text></Box>
-             < Box>  <img className='skills-card-img' id='backEnd_img' src="https://ih1.redbubble.net/image.3481290663.8913/st,small,507x507-pad,600x600,f8f8f8.jpg" alt="nodejs" />  <Text    className="skills-card-name"   id='skillName'> mongoose </Text></Box>
+            <Text className='skillNameTitle' mb={"20px"}  border={"1px solid"}>Training Specialist </Text>
+            <Box className='back_end_skills' data-aos="zoom-in-left" data-aos-easing="ease-out-cubic"  >
+
+              <Box> 
+                <img className='skills-card-img' id='backEnd_img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIR5_f6-RLHYNBQ40NxjafSEqp9olJZ5ndqSKW90jX8KzzJD8gUcSkmdHjXW-uY1ATukk&usqp=CAU" width="100px" alt="JSON" />
+                 <Text    className="Training"   id=''> Presentation   </Text>
+                </Box>
+
+              <Box > 
+                <img className='skills-card-img' id='backEnd_img' src="https://banner2.cleanpng.com/20180910/syr/kisspng-facilitator-facilitation-meeting-project-managemen-espn-launches-program-on-facebook-watch-actionte-5b97302dc0bbd3.8453628215366349257895.jpg" alt="java" /> <Text    className="Training"   id=''> Facilitation  </Text>
+                </Box>
+
+              <Box> 
+                 <img className='skills-card-img' id='backEnd_img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ74hIOPNqdQ46mCsnrM4kiPZpN9mH9Pv_aDAl87JaxCa_K5xH7nIs0iQUodznCoVXKBa0&usqp=CAU" alt="nodejs" />  <Text    className="Training"   id=''> Content Creator  </Text>
+              </Box>
+
+              <Box>
+                <img className='skills-card-img' id='backEnd_img' src="https://cdn.pixabay.com/photo/2021/02/03/11/57/microsoft-5977659_1280.png" alt="express" /> <Text    className="Training"   id=''> MS Office </Text>
+                </Box>
+
+              <Box> 
+                 <img className='skills-card-img' id='backEnd_img' src="https://dme2wmiz2suov.cloudfront.net/User(12509894)/CourseBundles(4338)/651609-CRT_SOFT_SKILLS.jpg  " alt="mongodb" /> <Text    className="Training"   id=''> Soft Skills </Text>
+                 </Box>
+
+             < Box> 
+              <img className='skills-card-img' id='backEnd_img' src="https://img.freepik.com/free-vector/illustration-work-experience-concept_53876-36918.jpg?size=338&ext=jpg&ga=GA1.1.632798143.1705708800&semt=ais" alt="nodejs" />  <Text    className="Training"   id=''> Training  </Text>
+              </Box>
              
             </Box>
           </Box>) : (<Box className='right_dup' data-aos="fade-down">
-            <img  className='skills-card-img' src="https://cdn1.vectorstock.com/i/1000x1000/52/60/programming-website-frontend-developepr-working-vector-24575260.jpg" alt="front end" />
+            <img  className='skills-card-img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQijEZ34M2a6y0zjp_cHN96G5wJT22Jugcliw&usqp=CAU" alt="front end" />
           </Box>)}
 
         </Box>
       </Box>
-    
-      <Box id='OtherSkills_container' class="skills-card" mt={"10px"}>
+    {/* tools */}
+      <Box id='OtherSkills_container tools' class="skills-card" mt={"-80px"}>
         <Text  className='tool' data-aos-duration="1000" textAlign={"center"}  m={"auto"} color={"black"} borderRadius={"10px"} border={"4px solid orangered"} w={"max-content"}  fontWeight={"700"}>Tools</Text>
         <Box className='OtherSkills-inner' >
 
 
-          <Box data-aos="flip-left" data-aos-duration="1500"><img className='skills-card-img' id='tool_skill_img' src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="" /> <Text   className="skills-card-name"    id='skillName'>Git</Text> </Box>
-          <Box data-aos="flip-right" data-aos-duration="1500"><img className='skills-card-img' id='tool_skill_img' src="https://img.icons8.com/?size=1x&id=LoL4bFzqmAa0&format=png" alt="" /> <Text   className="skills-card-name"    id='skillName'>Github</Text> </Box>
-          <Box data-aos="flip-left" data-aos-duration="1500"><img className='skills-card-img' id='tool_skill_img' src="https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8" alt="" /> <Text   className="skills-card-name"    id='skillName'>Postman</Text> </Box>
-          <Box data-aos="flip-right" data-aos-duration="1500"><img className='skills-card-img' id='tool_skill_img' src="https://cdn.iconscout.com/icon/free/png-256/free-netlify-3628945-3030170.png" alt="" /> <Text   className="skills-card-name"    id='skillName'>Netlify</Text> </Box>
-          <Box data-aos="flip-left" data-aos-duration="1500"><img className='skills-card-img' id='tool_skill_img2' src="https://mms.businesswire.com/media/20211123005573/en/929867/23/vercel-logo-freelogovectors.net.jpg" alt="" /> <Text   className="skills-card-name"    id='skillName'>Vercel</Text> </Box>
-          <Box data-aos="flip-right" data-aos-duration="1500"><img className='skills-card-img' id='tool_skill_img2' src="https://cdn.wmaraci.com/nedir/json.png" alt="" /> <Text   className="skills-card-name"    id='skillName'>JSON</Text> </Box>
-          <Box data-aos="flip-left" data-aos-duration="1500"><img className='skills-card-img' id='tool_skill_img' src="https://pbs.twimg.com/profile_images/689189555765784576/3wgIDj3j_400x400.png" alt="" /> <Text   className="skills-card-name"    id='skillName'>Heroku</Text> </Box>
-          <Box data-aos="flip-right" data-aos-duration="1500"><img className='skills-card-img' id='tool_skill_img' src="https://pbs.twimg.com/profile_images/1285630920263966721/Uk6O1QGC_400x400.jpg" alt="" /> <Text   className="skills-card-name"    id='skillName'>NPM</Text> </Box>
+          <Box data-aos="flip-left" data-aos-duration="1500" >
+            <img className='skills-card-img' id='tool_skill_img' src="https://miro.medium.com/v2/resize:fit:750/1*b1PpLl1-C8FWTLzNO3OqVA.jpeg " alt="" /> 
+            <Text   className="skills-card-name"  width="106%" id='skillName'>Jupyter Notebook</Text>
+             </Box>
+          <Box data-aos="flip-right" data-aos-duration="1500" ><img className='skills-card-img' id='tool_skill_img' src="https://www.tutorialsteacher.com/Content/images/home/sql.png" alt="" /> <Text   className="skills-card-name"    id='skillName'>SQL</Text> </Box>
+
+          <Box data-aos="flip-left" data-aos-duration="1500" ><img className='skills-card-img' id='tool_skill_img' src="https://static.javatpoint.com/tutorial/matplotlib/images/matplotlib-tutorial.png" alt="" /> <Text   className="skills-card-name"    id='skillName' width="106%" >Matplotlib</Text> </Box>
+
+          <Box data-aos="flip-right" data-aos-duration="1500" ><img className='skills-card-img' id='tool_skill_img' src="https://www.inventateq.com/top-stories/featured_image/tableau2.png" alt="" /> <Text   className="skills-card-name"    id='skillName'>Tableau</Text> </Box>
+         
         </Box>
 
       </Box>

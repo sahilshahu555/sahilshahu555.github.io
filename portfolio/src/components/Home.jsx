@@ -9,6 +9,7 @@ import { Intro } from './Intro'
 import "./Home.css"
 
 import { Stats } from './Stats'
+import Certificates from './Certificates'
 
 export const Home = () => {
     return (
@@ -21,6 +22,8 @@ export const Home = () => {
             <Skills />
 
             <Project />
+
+            <Certificates/>
 
             <Stats />
 

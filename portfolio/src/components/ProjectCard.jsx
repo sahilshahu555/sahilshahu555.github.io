@@ -7,7 +7,7 @@ export const ProjectCard = ({name,desc,avatar,link,github,tech }) => {
       <CardHeader>
 
         <Flex spacing='4'>
-          <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap' >
+          <Flex flex='1' gap='4' alignItems='center'  flexWrap='wrap' >
             <Box data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom" >  <Image id='card_img' 
               objectFit='cover'
@@ -24,18 +24,13 @@ export const ProjectCard = ({name,desc,avatar,link,github,tech }) => {
         fontWeight='bold' > 
          {name}</Heading> </Text>
         <Text mt={"10px"} fontSize={["lg","lg","xl","xl"]} class="project-description" color="black" border={"1px solid blue"} >
-         {desc}
+        <b>Description :</b> {desc}
         </Text>
-        <Text mt={"10px"} color={"black"} class="project-tech-stack" fontSize={["lg","lg","xl","xl"]}>  <span style={{ color: "orangered", fontWeight: "700" }}>TECH STACK :</span>{tech} </Text>
+        <Text mt={"20px"} color={"black"} class="project-tech-stack" fontSize={["sm","sm"]}>  <span style={{ color: "orangered", fontWeight: "700" }}>TECH STACK :</span>{tech} </Text>
       </CardBody>
 
 
-      <CardFooter justify='space-between'  sx={{ '& > button': { minW: '136px', }, }} >
-        <Flex justifyContent={"space-between"} padding={"0px 20px"} w={"100%"}>
-          <Button id='card_soco' bg="orangered" size={["sm", "sm", "md", "md"]}>   <Link class="project-github-link" target='_blank' href={github}> <i class="fa-brands fa-github fa-2xl"></i> source code </Link> </Button>
-          <Button id='card_soco'  bg="orangered" size={["sm", "sm", "md","md"]}> <Link class="project-deployed-link" target='_blank' href={link}><i class="fa-solid fa-eye fa-2xl"></i> Live </Link></Button>
-        </Flex>
-      </CardFooter>
+      
 
     </Card>
   )
