@@ -1,5 +1,5 @@
-{ 
-  "homepage" :"http://sahilshahu555.github.io",
+{
+  "homepage": "http://sahilshahu555.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +14,7 @@
     "aos": "^2.3.4",
     "axios": "^1.4.0",
     "framer-motion": "^10.12.17",
+    "gh-pages": "^6.1.1",
     "github-calendar": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -25,7 +26,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
