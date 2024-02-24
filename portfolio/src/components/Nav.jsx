@@ -79,7 +79,7 @@ export const Nav = () => {
         <Button
         id="resume-button-1"
           display={["none", "none", "none", "flex", "flex"]} borderRadius=".8rem" size={["sm", "md"]} margin="auto" as={Link} border="1px solid #e4512d"
-          target="_blank" bg="brand_secondary" color="#f8572f" _hover={{bg: "gray.200", color:"#e4512d" }} href="https://drive.google.com/file/d/1c5tn3oRihetBMKptsGGx9Gk0hqRoZfUx/view?usp=sharing" download={true}
+          target="_blank" bg="brand_secondary" color="#f8572f" _hover={{bg: "gray.200", color:"#e4512d" }} href="https://drive.google.com/file/d/1JJHV6d5Qk-B1p9LB4FtmM-Qk__Y1lD58/view?usp=sharing" download={true}
           onClick={()=>handleClick(resume)}
          
         >

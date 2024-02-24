@@ -10,18 +10,18 @@ export const Contacts = () => {
      data-aos-duration="1000">Contact Me</h2>
       <div style={styles.contactDetails}>
         <p style={styles.contactInfo} id="contact-phone"   data-aos="fade-up"
-     data-aos-duration="1000"><i class="fa-solid fa-phone-volume fa-2xl"></i> <span style={{color:"black"}}> : {phoneNumber}</span> </p>
+     data-aos-duration="1000"><i className="fa-solid fa-phone-volume fa-2xl"></i> <span style={{color:"black"}}> : {phoneNumber}</span> </p>
         <p style={styles.contactInfo} id="contact-email"  data-aos="fade-up"
-     data-aos-duration="1000" ><i class="fa-solid fa-envelope fa-2xl"></i>  <span style={{color:"black"}}> : {email}</span> </p>
+     data-aos-duration="1000" ><i className="fa-solid fa-envelope fa-2xl"></i>  <span style={{color:"black"}}> : {email}</span> </p>
       </div>
       <div style={styles.socialMedia}>
         <p style={styles.socialMediaText}  data-aos="fade-up"
      data-aos-duration="1000">Social Media</p>
         <div style={styles.socialMediaLinks}>
         <a style={styles.socialMediaLink}  data-aos="fade-up"
-     data-aos-duration="1000" id="contact-linkedin" target='_blank' href="https://www.linkedin.com/in/sahil-shahu-7374bb18b/?originalSubdomain=in"><i class="fa-brands fa-linkedin  fa-2xl"></i></a>
+     data-aos-duration="1000" id="contact-linkedin" target='_blank' href="https://www.linkedin.com/in/sahil-shahu-7374bb18b/?originalSubdomain=in"><i className="fa-brands fa-linkedin  fa-2xl"></i></a>
           <a style={styles.socialMediaLink} target='_blank' data-aos="fade-up"
-     data-aos-duration="1000" id="contact-github" href="https://github.com/sahilshahu555"><i class="fa-brands fa-github fa-2xl"></i></a>
+     data-aos-duration="1000" id="contact-github" href="https://github.com/sahilshahu555"><i className="fa-brands fa-github fa-2xl"></i></a>
         </div>
       </div>
       <div> <p style={{fontWeight:"700"}}  
