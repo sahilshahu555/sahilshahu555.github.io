@@ -41,7 +41,7 @@
 
 .home-img {
     margin: auto;
-    width: 40%;
+    width: 50%;
     padding: 10p;
     object-fit: contain;
     animation: floatImage 4s ease-in-out infinite;
@@ -95,8 +95,8 @@
     flex-direction: row;
     justify-content: space-between;
     /* border: 2px solid; */
-    width: 100%;
-    margin:  auto;
+    width: 95%;
+    margin: 100px auto;
 }
 
 .about_left {
@@ -138,19 +138,19 @@
 
 .left_dup {
     height: 400px;
-   
+
+    padding: 40px
 }
 
 .left_dup>img {
-    width: 100%;
+    width: 70%;
     margin: auto;
     border-radius: 10px;
-    margin-top: 10px;
 }
 
 #left_real {
     height: 500px;
-    padding: 0px 30px;
+    padding: 10px 30px;
     text-align: center;
     /* border: 1px solid */
 }
@@ -166,7 +166,6 @@
 #frontend_skills div {
     border: 3px solid orangered;
     border-radius: 10px;
-    padding-top: 2px;
     transition: border .2s ease-in-out border-width .2s ease-in-out;
 }
 
@@ -174,7 +173,6 @@
     border-width: 0;
     transition: border .2s ease-in-out;
     border-radius: 10px;
-    padding: 5px;
 }
 
 #fontSkill_img {
@@ -202,15 +200,13 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 10px 20px;
-    color: black;
-    font-weight: bold;
 }
 
 .back_end_skills div {
     border: 3px solid orangered;
     border-radius: 10px;
     transition: border .2s ease-in-out border-width .2s ease-in-out;
-    
+
 }
 
 .back_end_skills div:hover {
@@ -221,8 +217,7 @@
 }
 
 #backEnd_img {
-    width: 50%;
-    height: 50px;
+    width: 35%;
     display: block;
     margin: auto;
 }
@@ -250,7 +245,6 @@
 
 .OtherSkills-inner div {
     border: 5px solid orangered;
-    padding: 20px;
     border-radius: 10px;
     transition: border .2s ease-in-out border-width .2s ease-in-out;
 }
@@ -292,7 +286,6 @@
     font-weight: 700;
     font-size: x-large;
     margin-top: 10px;
-    padding: 10px;
 }
 
 .tool {
@@ -346,13 +339,7 @@
 }
 
 /* project part end  */
-/* cer */
-.cer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-/* cer */
+
 
 /* stat part start  */
 .calendar img {
@@ -407,12 +394,6 @@
 
 /* contact  */
 
-/* footer start */
-.footer{
-    font-size: 16px;
-}
-/* footer end */
-
 
 
 @media (max-width: 767px) {
@@ -422,12 +403,11 @@
     .intro_box {
 
         display: flex;
-        flex-direction: column-reverse;
         flex-wrap: wrap;
     }
 
     .intro_left {
-        padding: 10px 10px;
+        padding: 60px 10px;
         width: 100%
     }
 
@@ -440,15 +420,15 @@
 
     .home-img {
         margin: auto;
-        width: 100%;
-        
+        width: 250px;
+        padding: 20px 0px;
     }
 
     .intro_right {
 
         padding: 20;
-        width: 50%;
-       
+        width: 70%;
+        margin: 15% auto
     }
 
 
@@ -498,7 +478,6 @@
     #skill-container-inner {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-       
     }
 
     #skills_left {
@@ -516,7 +495,7 @@
     .tool {
         padding: 0px 80px;
         font-size: x-large;
-       
+
     }
 
     #skills_right {
@@ -526,8 +505,7 @@
 
     #fontSkill_img {
         width: 60%;
-        height: 40px;
-        margin-top: 5px;
+        height: 50px;
 
     }
 
@@ -545,7 +523,7 @@
 
     #left_real {
         height: 100%;
-        padding: 0px 30px;
+        padding: 10px 30px;
         text-align: center;
 
         color: orangered;
@@ -553,14 +531,14 @@
 
     .left_dup {
         width: 100%;
-        /* padding: 10px; */
-        height: 240px;
+        padding: 20px;
+        height: 300px;
         margin: auto;
-        margin-bottom: -60px;
+
     }
 
     .left_dup>img {
-        width: 100%;
+        width: 400px;
         margin: auto;
 
     }
@@ -574,7 +552,8 @@
     }
 
     .right_dup>img {
-        width: 100%;
+        width: 400px;
+
         margin: auto;
 
     }
@@ -595,24 +574,21 @@
 
     .back_end_skills div {
         border: 3px solid orangered;
-        width: 110px;
+        width: 100px;
         border-radius: 10px;
         margin: auto;
-        
 
     }
 
     .back_end_skills {
         grid-template-columns: repeat(2, 1fr);
-        margin-bottom: 100px;
     }
 
     #backEnd_img {
-        width: 70%;
-        height: 50px;
+        width: 60%;
+        height: 60px;
         margin: auto;
         /* border:1px solid */
-
     }
 
     .OtherSkills-inner {
@@ -620,7 +596,6 @@
         gap: 20px;
        padding: 40px 20px;
        width: 70%;
-        
         grid-template-columns: repeat(2, 1fr);
         margin: auto;
         text-align: center
@@ -631,13 +606,12 @@
         display: flex;
         width: 100px;
         margin: auto;
-        height: 20vh;
         padding: 10px 5px;
         flex-direction: column;
     }
 
     #OtherSkills_container {
-        margin-top: 50px;
+        margin-top: 40px;
         padding: 10px;
         color: orangered;
     }
@@ -661,11 +635,7 @@
     .skills-card-img {
         width: 80%;
     }
-    #skillName {
-        
-        line-height: 18px;
 
-    }
     /* project  */
 
     .project_main {
@@ -675,30 +645,6 @@
     .project-card {
         padding: 3px;
     }
-/* certificates start */
-.cer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-}
-.cer>div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-width: 100%;
-height: 40vh;
-
-img{
-   
-    height: 80%;
-}
-}
-/* certificates end */
-
-
 
     /* stat start  */
     .calendar img {
@@ -735,10 +681,6 @@ img{
         margin: auto;
         background-color: transparent;
         width: 100%;
-    }
-
-    .footer{
-        font-size: 15px;
     }
 
 }
@@ -979,13 +921,11 @@ img{
     }
 
     #OtherSkills_container {
+        margin-top: 50px;
         padding: 10px;
         color: orangered;
     }
 
-.tools{
-    /* margin-top: -20px; */
-}
     /* project   part   */
     .project_main {
         grid-template-columns: repeat(2, 1fr);

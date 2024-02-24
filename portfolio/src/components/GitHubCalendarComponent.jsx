@@ -8,7 +8,7 @@ const GitHubCalendarComponent = () => {
     <Box padding={"2%"} className="react-activity-calendar" >
  <Box className="calendar" data-aos="zoom-in-up" data-aos-duration="1000">
       {/* Loading stuff */}
-      <img  src="https://ghchart.rshah.org/reenabarsagade" alt=" Github chart" />
+      <img  src="https://ghchart.rshah.org/sahilshahu555" alt="2016rshah's Github chart" />
     </Box>
     </Box>
    

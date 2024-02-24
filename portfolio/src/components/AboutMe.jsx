@@ -15,18 +15,21 @@ export const AboutMe = () => {
       </Box> 
       <Box className='about_right' >
         <Box  data-aos-duration="1200" > <Text  fontSize={["25px", "25px", "33px", "3xl"]} fontWeight={"700"} >About me</Text> </Box>
-        <Box >  <Text fontSize={["20px", "20px", "25px", "2xl"]} fontWeight={"700"}> <span style={{ color: "orangered" }}> Data Analyst </span>, Data Scientist </Text></Box>
-        <Box className='about_me' > <Text m={"20px 0px"} id="user-detail-intro">Aspiring Data Scientist and Analyst with a passion for extracting meaningful insights from data. Strong analytical skills, a solid foundation in machine learning, and a commitment to leveraging data for informed decision-making</Text></Box>
+        <Box >  <Text fontSize={["20px", "20px", "25px", "2xl"]} fontWeight={"700"}> <span style={{ color: "orangered" }}> Full Stack </span>Web Developer </Text></Box>
+        <Box className='about_me' > <Text m={"20px 0px"} id="user-detail-intro">I am a passionate web developer driven by a relentless
+          pursuit of excellence. With a meticulous attention to detail and
+          a commitment to delivering pixel-perfect designs, I create immersive
+          and engaging web experiences  with the help of CSS , HTML , Javascript , React , MongoDB that leave a lasting impression</Text></Box>
         <Box ><Button  fontSize={"large"} size={["sm", "lg", "lg", "md"]} color={"white"} _hover={{ bg: "gray.200", color: "orangered", borderRadius: "10px" }} bg={"orangered"} onClick={handleReadMoreClick}>{showMoreDetails ? "Read less" : "Read more"}</Button></Box>
         {showMoreDetails && <Box className='more-detail' mt={"30px"} >
        
           <Box>
 
-            <Text mt={"10px"} className='more_detail_text'> <span style={{ color: "#03c8d7", fontWeight: "700" }}> <i class="fa-solid fa-graduation-cap fa-xl"></i></span> : Masters in Computer Application, G.H. Raisoni College of Engineering, Nagpur</Text>
+            <Text mt={"10px"} className='more_detail_text'> <span style={{ color: "#03c8d7", fontWeight: "700" }}> <i class="fa-solid fa-graduation-cap fa-xl"></i></span> : Bachelor's Degree in Mechanical Engineering from Priyadarshani College of Engineering, Nagpur</Text>
             <Divider />
-            <Text   mt={"10px"} className='more_detail_text'><span style={{ color: "#03c8d7", fontWeight: "700" }}><i class="fa-solid fa-phone fa-lg"></i> </span> : 9860927554</Text>
+            <Text   mt={"10px"} className='more_detail_text'><span style={{ color: "#03c8d7", fontWeight: "700" }}><i class="fa-solid fa-phone fa-lg"></i> </span> : 9359216799</Text>
             <Divider />
-            <Text  mt={"10px"} className='more_detail_text'><span style={{ color: "#03c8d7", fontWeight: "700" }}><i class="fa-solid fa-envelope fa-lg"></i></span> : reenabarsagade@gmail.com</Text>
+            <Text  mt={"10px"} className='more_detail_text'><span style={{ color: "#03c8d7", fontWeight: "700" }}><i class="fa-solid fa-envelope fa-lg"></i></span> : sahilshahu555@gmail.com</Text>
             <Divider />
             <Text mt={"10px"} className='more_detail_text'> <span style={{ color: "#03c8d7", fontWeight: "700" }}><i class="fa-solid fa-location-dot fa-xl"></i></span> : Nagpur, Maharashtra</Text>
             <Divider />

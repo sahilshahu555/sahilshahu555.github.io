@@ -3,7 +3,7 @@ import { Container, Box, Heading, Link, IconButton, useDisclosure, VStack, Space
 import { Link as ScrollLink } from "react-scroll";
 import { DownloadIcon, HamburgerIcon } from "@chakra-ui/icons";
 import './Home.css'
-import resume from './resume/Reena-Barsagade-Resume.pdf'
+import resume from './resume/Sahil-Shahu-Resume.pdf'
 
 export const Nav = () => {
   const { getDisclosureProps, getButtonProps } = useDisclosure();
@@ -25,7 +25,7 @@ export const Nav = () => {
     maxW="100%"display="flex"justifyContent="space-between"bg="gray.200"color="black"shadow="base"
     >
       <Box  >
-        <Heading cursor="pointer" size="lg" marginLeft="20px"> Reena Barsagade</Heading>
+        <Heading cursor="pointer" size="lg" marginLeft="20px"> Sahil Shahu</Heading>
       </Box>
       <Spacer />
       <Box className="nav" display={["none", "none", "none", "flex", "flex"]} w="50%" justifyContent="space-evenly"
@@ -59,12 +59,12 @@ export const Nav = () => {
             >
              Projects
             </Link>
-            <Link  className="statistics"  as={ScrollLink} to={"cer"}spy={true}smooth={true}offset={-80}duration={400}p="5px 8px"m="auto"textAlign={"center"}
+            <Link  className="statistics"  as={ScrollLink} to={"statistics"}spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
               cursor="pointer"
               w="100px"
               _hover={{ bg: "gray.200", color:"#e4512d", borderRadius: "10px" }}
             >
-             Certificates
+             Statistics
             </Link>
             <Link   className="nav-link contact" as={ScrollLink} to={"contact"} spy={true}smooth={true}offset={-80}duration={400}p="5px 10px"m="auto"textAlign={"center"}
               cursor="pointer"
@@ -79,7 +79,7 @@ export const Nav = () => {
         <Button
         id="resume-button-1"
           display={["none", "none", "none", "flex", "flex"]} borderRadius=".8rem" size={["sm", "md"]} margin="auto" as={Link} border="1px solid #e4512d"
-          target="_blank" bg="brand_secondary" color="#f8572f" _hover={{bg: "gray.200", color:"#e4512d" }} href="https://drive.google.com/file/d/1xUPJpO6CJEb36Y4L8Y3fPKgG_fKHxaSM/view?usp=sharing" download={true}
+          target="_blank" bg="brand_secondary" color="#f8572f" _hover={{bg: "gray.200", color:"#e4512d" }} href="https://drive.google.com/file/d/1c5tn3oRihetBMKptsGGx9Gk0hqRoZfUx/view?usp=sharing" download={true}
           onClick={()=>handleClick(resume)}
          
         >
@@ -196,7 +196,7 @@ export const Nav = () => {
                 duration={400}
                 cursor="pointer"
               >
-                Certificates
+                Statistics
                 <Divider />
               </Link>
               
