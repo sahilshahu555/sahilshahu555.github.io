@@ -89,7 +89,7 @@ export const Nav = () => {
        
       </Link>
       {/* <a href="./resume\Abid_resume (3).pdf" download> resume</a> */}
-      <Box>
+      <Box >
         <IconButton
           float="right"
           variant="outline"
@@ -102,11 +102,13 @@ export const Nav = () => {
         </IconButton>
         <VStack
           marginTop="40px"
+          
           {...disclosureProps}
           bg="brand_secondary"
-          padding="5px"
+          padding="16px"
           borderRadius="5px"
           display={["flex", "flex", "flex", "none", "none"]}
+          className="bg-slate-200 "
         >
          
               <Link

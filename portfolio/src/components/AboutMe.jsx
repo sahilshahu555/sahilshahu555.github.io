@@ -8,7 +8,7 @@ export const AboutMe = () => {
     setShowMoreDetails((prevState) => !prevState);
   }
   return (
-    <Box  className=" flex flex-col md:flex-row items-center "  >
+    <Box  className=" flex flex-col md:flex-row items-center p-5 -mt-10 "  >
         {/* <Text > About me</Text> */}
       <Box className='about_left ' data-aos="fade-down" >
         <img  src='https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz' alt="photo" className='h-72 -mt-5' />
