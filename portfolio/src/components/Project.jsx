@@ -12,13 +12,13 @@ import { ProjectCard } from './ProjectCard'
 
 export const Project = () => {
   return (
-    <Box id="projects" >
+    <Box id="projects " className='-mb-16' >
 
       <Text data-aos="fade-right" data-aos-duration="1000"
-        fontSize={["3xl", "4xl", "4xl", "4xl"]} mb={"30px"}
+         mb={"30px"}
          fontWeight={"700"} color={"black"} borderRadius={"10px"} border={"4px solid orangered"}
-        className='project-title'
-        textAlign={"center"}  w={'max-content'} margin={"40px auto"} padding={"0px 40px"}>Projects</Text>
+        className='project-title text-2xl md:text-3xl py-1 md:py-2  px-20 md:px-12'
+        textAlign={"center"}  w={'max-content'} margin={"40px auto"} >Projects</Text>
 
       <Box className='project_main'>
 

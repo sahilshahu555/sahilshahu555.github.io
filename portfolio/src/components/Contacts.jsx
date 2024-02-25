@@ -64,7 +64,7 @@ const styles = {
   },
   
   socialMedia: {
-  border:"3px solid orangered",
+  // border:"3px solid orangered",
  
     display: 'flex',
    borderRadius:"20px",
@@ -76,11 +76,11 @@ const styles = {
   socialMediaText: {
     border: '2px solid orangered',
     borderRadius: "10px",
-    fontSize: '16px',
-    fontWeight:"700",
+    fontSize: '20px',
+    fontWeight:"bold",
     fontFamily: 'Arial, sans-serif',
     color: 'black',
-    padding:"7px 35px",
+    padding:"0px 72px",
     margin: '10px 0',
   },
   socialMediaLinks: {

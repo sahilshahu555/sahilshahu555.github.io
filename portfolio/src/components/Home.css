@@ -160,11 +160,12 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 10px 20px;
+    margin-top: 20px;
 
 }
 
 #frontend_skills div {
-    border: 3px solid orangered;
+    /* border: 3px solid orangered; */
     border-radius: 10px;
     transition: border .2s ease-in-out border-width .2s ease-in-out;
 }
@@ -200,10 +201,12 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 10px 20px;
+    margin-top: 20px;
+
 }
 
 .back_end_skills div {
-    border: 3px solid orangered;
+    /* border: 3px solid orangered; */
     border-radius: 10px;
     transition: border .2s ease-in-out border-width .2s ease-in-out;
 
@@ -244,7 +247,7 @@
 }
 
 .OtherSkills-inner div {
-    border: 5px solid orangered;
+    /* border: 5px solid orangered; */
     border-radius: 10px;
     transition: border .2s ease-in-out border-width .2s ease-in-out;
 }

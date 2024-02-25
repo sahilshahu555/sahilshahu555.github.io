@@ -28,7 +28,7 @@ export const Skills = () => {
 
         <Box id='skills_left'  className="skills-card-name p-10 flex flex-col-reverse items-center gap-10 text-center "  >
         
-          <Box className="h-[16rem]"  >
+          <Box className=" h-[25rem] md:h-[16rem]"  >
 
             <Text className='skillNameTitle' data-aos-duration="1000" margin={"auto"} mb={"0px"} border={"1px solid"}>Front End </Text>
             <Box id='frontend_skills' data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" >
@@ -53,7 +53,7 @@ export const Skills = () => {
           <img  className='skills-card-img rounded-3xl h-[16rem] w-full m-auto' src="https://www.naukri.com/cloudgateway-fastforward/ff-content-services/v0/unauth/cms/photo?id=4596958d2ce330083af82b50e7b26636662c83f25061cc349fe4c8d3c4ffeb9cc47cd2e6b19d5140efa36f71b3811061e454b54943e416c0ad217192a687eb349eb160942a1ee009113f03cb115cb3db&postTypeId=c4eff10da33c562d3e88af8f60fcf6cecdf3e35370f49177&source=ff" alt="front end" />
         </Box>
         
-        <Box className="h-[16rem]"  >
+        <Box className=" h-[25rem] md:h-[16rem]"  >
 
           <Text className='skillNameTitle' mt={"0px"}  border={"1px solid"}>Back End </Text>
           <Box className='back_end_skills' data-aos="zoom-in-left" data-aos-easing="ease-out-cubic" >
@@ -74,7 +74,7 @@ export const Skills = () => {
         
       </Box>
     
-      <Box id='OtherSkills_container' class="skills-card -mt-20" >
+      <Box id='OtherSkills_container' className="skills-card  " >
         <Text  className='tool' data-aos-duration="1000" textAlign={"center"}  m={"auto"} color={"black"} borderRadius={"10px"} border={"4px solid orangered"} w={"max-content"}  fontWeight={"700"}>Tools</Text>
         <Box className='OtherSkills-inner ' >
 
