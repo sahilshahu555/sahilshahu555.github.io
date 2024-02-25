@@ -8,10 +8,10 @@ export const AboutMe = () => {
     setShowMoreDetails((prevState) => !prevState);
   }
   return (
-    <Box id="about" className="about section"  >
+    <Box  className=" flex flex-col md:flex-row items-center "  >
         {/* <Text > About me</Text> */}
-      <Box className='about_left' data-aos="fade-down" >
-        <img  src='https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz' alt="photo" />
+      <Box className='about_left ' data-aos="fade-down" >
+        <img  src='https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz' alt="photo" className='h-72 -mt-5' />
       </Box> 
       <Box className='about_right' >
         <Box  data-aos-duration="1200" > <Text  fontSize={["25px", "25px", "33px", "3xl"]} fontWeight={"700"} >About me</Text> </Box>
