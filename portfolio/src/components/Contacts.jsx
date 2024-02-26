@@ -41,7 +41,7 @@ const styles = {
    
   },
   contactTitle: {
-    border: '3px solid orangered',
+    border: '2px solid orangered',
     borderRadius: '10px',
     fontSize: '20px',
     fontWeight: 'bold',

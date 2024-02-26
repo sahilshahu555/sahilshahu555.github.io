@@ -17,7 +17,7 @@ export const Intro = () => {
 
 
     return (
-        <Box className='intro_box'  >
+        <Box className='intro_box mb-10'  >
             <Box className='intro_left' data-aos="fade-up" data-aos-duration="1000">
                 <Box data-aos="fade-right" data-aos-duration="1000"> <Text fontSize={["18px", "20px", "22px", "2xl"]} fontWeight={"700"}> Hello It's Me</Text></Box>
                 <Box data-aos="fade-left" data-aos-duration="1000">   <Text fontSize={["23px", "20px", "25px", "4xl"]} fontWeight={"700"} id="user-detail-name">Sahil Shahu</Text></Box>
@@ -45,8 +45,8 @@ export const Intro = () => {
 
                 </Box>
             </Box>
-            <Box className='intro_right' data-aos="fade-down" data-aos-duration="1000">
-                <img className='home-img' src={Sahil} alt="" style={{border:"2px solid #f3390a"}}/>
+            <Box className='intro_right' style={{border:"1px solid #f8572f"}} data-aos="fade-down" data-aos-duration="1000">
+                <img className='home-img' src={Sahil} alt="" />
             </Box>
 
         </Box>

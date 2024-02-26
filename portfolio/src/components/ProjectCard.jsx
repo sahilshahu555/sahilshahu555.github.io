@@ -3,7 +3,7 @@ import { Box, Button, Flex, Image, Text, Heading, Link} from '@chakra-ui/react'
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
 export const ProjectCard = ({name,desc,avatar,link,github,tech }) => {
   return (
-    <Card  data-aos="zoom-in-down" data-aos-duration="1000" className="project-card" maxW={["290px", "sm", "350px", "md"]}  bg={"white"} color={"black"} border={"2px solid #f8572f"} >
+    <Card  data-aos="zoom-in-down" data-aos-duration="1000" className="project-card" maxW={["290px", "sm", "350px", "md"]}  bg={"white"} color={"black"} border={"1px solid #f8572f"} >
       <CardHeader>
 
         <Flex spacing='4'>

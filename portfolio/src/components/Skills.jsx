@@ -10,7 +10,7 @@ export const Skills = () => {
         textAlign={"center"} margin={"auto"} w={"max-content"}
         borderRadius={"10px"}
         className="p-2"
-       border={"4px solid"}
+       border={"2px solid"}
         color={"orangered"}
         fontWeight= "700"
         fontSize={["2xl", "2xl", "3xl", "4xl"]}>
@@ -75,7 +75,7 @@ export const Skills = () => {
       </Box>
     
       <Box id='OtherSkills_container' className="skills-card  " >
-        <Text  className='tool' data-aos-duration="1000" textAlign={"center"}  m={"auto"} color={"black"} borderRadius={"10px"} border={"4px solid orangered"} w={"max-content"}  fontWeight={"700"}>Tools</Text>
+        <Text  className='tool' data-aos-duration="1000" textAlign={"center"}  m={"auto"} color={"black"} borderRadius={"10px"} border={"2px solid orangered"} w={"max-content"}  fontWeight={"700"}>Tools</Text>
         <Box className='OtherSkills-inner ' >
 
 
