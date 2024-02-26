@@ -233,6 +233,7 @@ export const Nav = () => {
             onClick={()=>handleClick(resume)}
             id="resume-button-1"
           >
+            
             <DownloadIcon marginRight="5px" />
             Resume
           </Button>
