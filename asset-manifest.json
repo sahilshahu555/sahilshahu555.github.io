@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.45ebca80.css",
-    "main.js": "/static/js/main.fd324abe.js",
+    "main.js": "/static/js/main.e9553708.js",
     "static/media/BookMyMovie.png": "/static/media/BookMyMovie.5455a84af3e37877c3db.png",
     "static/media/imageAI.png": "/static/media/imageAI.ca71d513c742be04f370.png",
     "static/media/Myntra.png": "/static/media/Myntra.cb0978ce0b49e4121784.png",
@@ -12,10 +12,10 @@
     "static/media/Sahil-Shahu.jpeg": "/static/media/Sahil-Shahu.806cb58cc3de8cddaaba.jpeg",
     "index.html": "/index.html",
     "main.45ebca80.css.map": "/static/css/main.45ebca80.css.map",
-    "main.fd324abe.js.map": "/static/js/main.fd324abe.js.map"
+    "main.e9553708.js.map": "/static/js/main.e9553708.js.map"
   },
   "entrypoints": [
     "static/css/main.45ebca80.css",
-    "static/js/main.fd324abe.js"
+    "static/js/main.e9553708.js"
   ]
 }
