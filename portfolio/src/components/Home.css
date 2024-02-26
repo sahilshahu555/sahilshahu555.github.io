@@ -517,7 +517,7 @@
     }
 
     #frontend_skills div {
-        border: 3px solid orangered;
+        /* border: 3px solid orangered; */
         border-radius: 10px;
         width: 100px;
         height: 100px;
@@ -576,7 +576,7 @@
     }
 
     .back_end_skills div {
-        border: 3px solid orangered;
+        /* border: 3px solid orangered; */
         width: 100px;
         border-radius: 10px;
         margin: auto;
@@ -605,7 +605,7 @@
     }
 
     .OtherSkills-inner div {
-        border: 3px solid orangered;
+        /* border: 3px solid orangered; */
         display: flex;
         width: 100px;
         margin: auto;
