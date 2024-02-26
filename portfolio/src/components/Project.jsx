@@ -30,7 +30,7 @@ export const Project = () => {
 
         <ProjectCard  tech=" NEXT.JS | REACT |TAILWIND_CSS | NODE | MONGODB | VERCEL" github="https://github.com/sahilshahu555/book_my_movie_next" link="https://bookmymovie1.netlify.app/" avatar={BookMyMovie} name="BookMyMovie" desc="Book My Movie is India's leading entertainment destination and the one-stop-shop for every out-of-home entertainment need." />
 
-        <ProjectCard  tech="  HTML | CSS | JavaScript | JSON | Netlify" github="https://github.com/AbhishekRS07/Myntra" link="https://myntra11.netlify.app/" avatar={Myntra} name="Myntra" desc=" Myntra is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products." />
+        <ProjectCard  tech="  HTML | CSS | JavaScript | JSON | Netlify" github="https://github.com/sahilshahu555/Myntra" link="https://myntra11.netlify.app/" avatar={Myntra} name="Myntra" desc=" Myntra is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products." />
 
         <ProjectCard  tech="  REACT | CHAKRA | REDUX | JSON | GH-PAGES" github="https://github.com/sahilshahu555/sahilshahu555.github.io" link="https://sahilshahu555.github.io/" avatar={Portfolio} name="Portfolio" desc=" Passionate MERN Stack Developer. Worked on various modern technologies such as React, MongoDB, Express.js, and Node.js.Seeking new opportunities to contribute and enhance skills." />
 
