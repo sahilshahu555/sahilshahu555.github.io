@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba43724f.css",
-    "main.js": "/static/js/main.85f02165.js",
+    "main.css": "/static/css/main.45ebca80.css",
+    "main.js": "/static/js/main.fd324abe.js",
     "static/media/BookMyMovie.png": "/static/media/BookMyMovie.5455a84af3e37877c3db.png",
     "static/media/imageAI.png": "/static/media/imageAI.ca71d513c742be04f370.png",
     "static/media/Myntra.png": "/static/media/Myntra.cb0978ce0b49e4121784.png",
@@ -9,13 +9,13 @@
     "static/media/Sahil-Shahu-Resume.pdf": "/static/media/Sahil-Shahu-Resume.2f7197bc1d5a0fe1946e.pdf",
     "static/media/Sahil-Portfolio.png": "/static/media/Sahil-Portfolio.0ffc8422574a1ebb28b4.png",
     "static/media/Onilne-honey-store.png": "/static/media/Onilne-honey-store.6b19724628ab238a51b4.png",
-    "static/media/Sahil-Shahu.jpeg": "/static/media/Sahil-Shahu.6151ba98a1972979f846.jpeg",
+    "static/media/Sahil-Shahu.jpeg": "/static/media/Sahil-Shahu.806cb58cc3de8cddaaba.jpeg",
     "index.html": "/index.html",
-    "main.ba43724f.css.map": "/static/css/main.ba43724f.css.map",
-    "main.85f02165.js.map": "/static/js/main.85f02165.js.map"
+    "main.45ebca80.css.map": "/static/css/main.45ebca80.css.map",
+    "main.fd324abe.js.map": "/static/js/main.fd324abe.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba43724f.css",
-    "static/js/main.85f02165.js"
+    "static/css/main.45ebca80.css",
+    "static/js/main.fd324abe.js"
   ]
 }
