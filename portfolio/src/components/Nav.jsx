@@ -79,7 +79,7 @@ export const Nav = () => {
         <Button
         id="resume-button-1"
           display={["none", "none", "none", "flex", "flex"]} borderRadius=".8rem" size={["sm", "md"]} margin="auto" as={Link} border="1px solid #e4512d"
-          target="_blank" bg="brand_secondary" color="#f8572f" _hover={{bg: "gray.200", color:"#e4512d" }} href="https://drive.google.com/file/d/1CakFPzfzqehT09LSmMd8zArn3aQlgX6i/view?usp=sharing" download={true}
+          target="_blank" bg="brand_secondary" color="#f8572f" _hover={{bg: "gray.200", color:"#e4512d" }} href="https://drive.google.com/file/d/13ZQDmxQBmnuQvLhzkj9pbEYnxhWmZhfo/view?usp=sharing" download={true}
           onClick={()=>handleClick(resume)}
          
         >
@@ -228,7 +228,7 @@ export const Nav = () => {
             color="#f8572f"
             border="1px"
             borderRadius="10px"
-            href="https://drive.google.com/file/d/1CakFPzfzqehT09LSmMd8zArn3aQlgX6i/view?usp=sharing"
+            href="https://drive.google.com/file/d/13ZQDmxQBmnuQvLhzkj9pbEYnxhWmZhfo/view?usp=sharing"
             download={true}
             onClick={()=>handleClick(resume)}
             id="resume-button-1"
